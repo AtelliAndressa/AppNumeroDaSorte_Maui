@@ -4,8 +4,7 @@
              x:Class="AppNumeroDaSorte.MainPage"
              Title="MainPage">
     <ScrollView>
-        <VerticalStackLayout 
-            HorizontalOptions="CenterAndExpand" 
+        <VerticalStackLayout             
             VerticalOptions="CenterAndExpand">
         
             <Image Source="logo_green.png" 
