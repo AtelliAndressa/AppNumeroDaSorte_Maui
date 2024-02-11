@@ -27,17 +27,29 @@
                 Margin="0, 20, 0, 0"/>
         
             <HorizontalStackLayout 
-                Spacing="10" 
+                Spacing="5" 
                 HorizontalOptions="Center" 
                 Margin="0, 60">
-            
-                <Label Text="01" TextColor="#00AB37" FontSize="24" />
-                <Label Text="01" TextColor="#00AB37" FontSize="24" />
-                <Label Text="01" TextColor="#00AB37" FontSize="24" />
-                <Label Text="01" TextColor="#00AB37" FontSize="24" />
-                <Label Text="01" TextColor="#00AB37" FontSize="24" />
-                <Label Text="01" TextColor="#00AB37" FontSize="24" />
-            
+
+                <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Label Text="01" TextColor="#00AB37" FontSize="24" />
+                </Border>
+                <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Label Text="01" TextColor="#00AB37" FontSize="24" />
+                </Border>
+                <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Label Text="01" TextColor="#00AB37" FontSize="24" />
+                </Border>
+                <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Label Text="01" TextColor="#00AB37" FontSize="24" />
+                </Border>
+                <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Label Text="01" TextColor="#00AB37" FontSize="24" />
+                </Border>
+                <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Label Text="01" TextColor="#00AB37" FontSize="24" />
+                </Border>
+
             </HorizontalStackLayout>
         
             <Label
@@ -47,6 +59,7 @@
         
             <Button Text="Gerar número da sorte"
                     HorizontalOptions="Center"/>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
